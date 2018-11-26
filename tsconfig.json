@@ -1,0 +1,18 @@
+{
+  "compileOnSave": false,
+  "compilerOptions": {
+    "strict": true,
+    "target": "ES2017",
+    "noEmitOnError": true,
+    "module": "commonjs",
+    "jsx": "react"
+  },
+  "include": [
+    "src/*.ts",
+    "src/*/*.ts",
+    "src/*/*/*.ts",
+    "src/*/*/*/*.ts",
+    "src/*/*/*/*/*.ts"
+  ],
+  "exclude": []
+}
